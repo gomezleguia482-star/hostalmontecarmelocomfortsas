@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dominio/sitemap.xml
+Sitemap: https://hostalmontecarmelocomfortsas.co/sitemap.xml
