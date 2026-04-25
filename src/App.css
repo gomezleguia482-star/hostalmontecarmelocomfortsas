@@ -1,0 +1,32 @@
+/* Animación para el fondo blanco */
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Animación para que los links suban con elegancia */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-menu-overlay {
+  animation: fadeInScale 0.4s ease-out forwards;
+}
+
+.animate-link-item {
+  opacity: 0; /* Empiezan invisibles */
+  animation: slideUp 0.5s ease-out forwards;
+}

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hostal Monte Carmelo | Comfort & Descanso</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <style>
+      body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        scroll-behavior: smooth;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: "Playfair Display", serif;
+      }
+      .hero-overlay {
+        background: linear-gradient(
+          to bottom,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.6)
+        );
+      }
+      .bg-hotel-red {
+        background-color: #e31e24;
+      }
+      .text-hotel-red {
+        color: #e31e24;
+      }
+      .border-hotel-red {
+        border-color: #e31e24;
+      }
+      .bg-hotel-blue {
+        background-color: #0066b2;
+      }
+
+      .nav-transition {
+        transition: all 0.3s ease-in-out;
+      }
+
+      /* Estilo para imágenes de la galería */
+      .gallery-img {
+        transition: transform 0.5s ease;
+      }
+      .gallery-img:hover {
+        transform: scale(1.05);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
