@@ -18,7 +18,7 @@ export function Map() {
                 <MapPin />
               </div>
               <p className="text-slate-400 text-xs md:text-sm">
-                Cra. 55 #24-36 Barrio Monte Carmelo - El carmen de bolivar
+                Cra. 55 #N°24-36, El Carmen de Bolívar
               </p>
             </div>
             <div className="flex items-center">

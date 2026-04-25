@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import montecarmelo from "../assets/gallery-img-0.jpeg";
+import montecarmelo from "../assets/hostal-monte-carmelo-el-carmen-de-bolivar-0.jpeg";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -85,7 +85,7 @@ export function Header() {
       >
         <img
           src={montecarmelo}
-          alt="Frente Hostal Montecarmelo"
+          alt="Fachada del Hostal Monte Carmelo Comfort en El Carmen de Bolívar"
           className="absolute inset-0 w-full h-full object-cover"
         />
         {/* Overlay oscuro para que se lea el texto */}
@@ -100,9 +100,12 @@ export function Header() {
             <span className="text-hotel-red uppercase">
               Monte Carmelo Comfort SAS
             </span>
+            <span className="block text-2xl md:text-4xl mt-2">
+              en El Carmen de Bolívar
+            </span>
           </h1>
           <p className="text-lg md:text-2xl max-w-2xl mx-auto font-light mb-8 opacity-90">
-            Hospedate en el corazón de los montes de maria.
+            El mejor alojamiento en el corazón de los Montes de María
           </p>
           <a
             href="https://wa.me/573022906081"

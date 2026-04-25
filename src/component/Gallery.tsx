@@ -1,14 +1,14 @@
 import { useEffect, useRef } from "react";
-import gallery_0 from "../assets/gallery-img-0.jpeg";
-import gallery_1 from "../assets/gallery-img-1.jpeg";
-import gallery_2 from "../assets/gallery-img-2.jpeg";
-import gallery_3 from "../assets/gallery-img-3.jpeg";
-import gallery_4 from "../assets/gallery-img-4.jpeg";
-import gallery_5 from "../assets/gallery-img-5.jpeg";
-import gallery_6 from "../assets/gallery-img-6.jpeg";
-import gallery_7 from "../assets/gallery-img-7.jpeg";
-import gallery_8 from "../assets/gallery-img-8.jpeg";
-import gallery_9 from "../assets/gallery-img-9.jpeg";
+import gallery_0 from "../assets/hostal-monte-carmelo-el-carmen-de-bolivar-0.jpeg";
+import gallery_1 from "../assets/hostal-monte-carmelo-el-carmen-de-bolivar-1.jpeg";
+import gallery_2 from "../assets/hostal-monte-carmelo-el-carmen-de-bolivar-2.jpeg";
+import gallery_3 from "../assets/hostal-monte-carmelo-el-carmen-de-bolivar-3.jpeg";
+import gallery_4 from "../assets/hostal-monte-carmelo-el-carmen-de-bolivar-4.jpeg";
+import gallery_5 from "../assets/hostal-monte-carmelo-el-carmen-de-bolivar-5.jpeg";
+import gallery_6 from "../assets/hostal-monte-carmelo-el-carmen-de-bolivar-6.jpeg";
+import gallery_7 from "../assets/hostal-monte-carmelo-el-carmen-de-bolivar-7.jpeg";
+import gallery_8 from "../assets/hostal-monte-carmelo-el-carmen-de-bolivar-8.jpeg";
+import gallery_9 from "../assets/hostal-monte-carmelo-el-carmen-de-bolivar-9.jpeg";
 
 export function Gallery() {
   const scrollRef = useRef<HTMLDivElement>(null);
