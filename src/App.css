@@ -1,4 +1,3 @@
-/* Animación para el fondo blanco */
 @keyframes fadeInScale {
   from {
     opacity: 0;
@@ -10,7 +9,6 @@
   }
 }
 
-/* Animación para que los links suban con elegancia */
 @keyframes slideUp {
   from {
     opacity: 0;

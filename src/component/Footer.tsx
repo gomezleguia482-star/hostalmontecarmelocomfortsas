@@ -16,8 +16,7 @@ export function Footer() {
               "Donde cada huésped es de la familia"
             </p>
             <p className="text-slate-500 text-sm text-justify">
-              Disfruta de la mejor hospitalidad en el corazón de los Montes de
-              Maria.
+              Disfruta de la mejor hospitalidad en El Carmen de Bolívar.
             </p>
           </div>
 
@@ -56,7 +55,7 @@ export function Footer() {
             <ul className="space-y-3 text-slate-500 text-sm">
               <li className="flex items-center gap-2">
                 <MapPin size={18} className="text-hotel-red" />
-                <span>Cra. 55 #24-36 - El Carmen de Bolívar</span>
+                <span>Cra. 55 #N°24-36, El Carmen de Bolívar</span>
               </li>
               <li className="flex items-center gap-2">
                 <MessageCircle size={18} className="text-hotel-red" />
@@ -97,7 +96,7 @@ export function Footer() {
         {/* Línea final de créditos */}
         <div className="border-t border-slate-400 mt-12 pt-8 text-center">
           <p className="text-slate-400 text-xs">
-            &copy; {new Date().getFullYear()} Hostal Monte Carmelo Confort SAS.
+            &copy; {new Date().getFullYear()} Hostal Monte Carmelo Comfort SAS.
             Todos los derechos reservados.
           </p>
           <p className="text-slate-400 text-xs mt-2">
